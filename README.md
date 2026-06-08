@@ -76,10 +76,7 @@ and prints live CPU/memory stats. Auto-restarts the container if it is down.
 - `restart: unless-stopped` — restarts on crash, not on manual stop
 
 ## Screenshots
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fea7fc25-faf5-4f13-8fb0-325309bc0f83" />
-<img width="1366" height="768" alt="image (1)" src="https://github.com/user-attachments/assets/76693a0a-a34d-4a1c-a99e-ab974f6642b9" />
-<img width="1366" height="768" alt="image (2)" src="https://github.com/user-attachments/assets/373155e8-0688-45c8-a099-f6038299eabf" />
-<img width="1366" height="768" alt="image (3)" src="https://github.com/user-attachments/assets/71fd6e0a-c08c-4090-bf49-ef5c7627fa7d" />
+
 
 
 
