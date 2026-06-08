@@ -1,0 +1,7 @@
+[2026-06-08 18:18:39] Running health check...
+[2026-06-08 18:18:39] ✅ Container is running
+[2026-06-08 18:18:39] ✅ HTTP check passed (status: 200)
+[2026-06-08 18:18:39] 📊 Container stats:
+CPU: 130.50% | Memory: 36.64MiB / 5.282GiB | Net I/O: 7.31kB / 5.57kB
+[2026-06-08 18:18:39] Health check complete.
+---

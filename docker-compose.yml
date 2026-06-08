@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  dotnet-app:
+    image: ghcr.io/benc-uk/dotnet-demoapp:latest
+    container_name: dotnet-monitoring-app
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+      - Weather__ApiKey=91f94e2f6ee7e68bf33ec5862dda183f
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
